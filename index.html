@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Web Portfolio of Marco</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Body Mass Index – Calculator</h1>
+<!-- Nhập chiều cao và cân nặng của Minh.-->
+      <p class = "a">Nhập chiều cao của Minh (Cm)</p>
+      <input type="number" id="height1">
+      <p class="a">Nhập cân nặng của Minh (Kg)</p>
+      <input type="number" id="weight1">
+
+<!-- Nhập chiều cao và cân nặng của Toàn. -->
+      <p class = "a">Nhập chiều cao của Toàn (Cm)</p>
+      <input type="number" id="height2">
+      <p class="a">Nhập cân nặng của Toàn (Kg)</p>
+      <input type="number" id="weight2">
+      <button id="button" onclick= check()>Kết Quả</button>
+    </div>
+<!-- Thông tin chỉ số BMI phù hợp cho từng độ tuổi.-->
+    <h3> Cách tính chi số BMI rất đơn giản, bạn cũng có thể đo chỉ số BMI online của nhiều đơn vị y tế. <h3>
+    <h4> BMI =(trọng lượng cơ thể)/(chiều cao x chiều cao) </h4>
+    <p>Trong đó:</p>
+    <p>- Trọng lượng cơ thể (Cân nặng) được tính bằng kg,</p>
+    <p>- Chiều cao được tính bằng m.</p>
+    <p>Công thức tính này được áp dụng với những người trưởng thành,từ 20 tuổi trở lên, không phân biết nam nữ,</p>
+    <p>Dưới đây là bảng đánh giá kết quả:</p>
+    <p>- BMI dưới 16: Gầy độ III, bạn cần phải khám và áp dụng một chế độ dinh dưỡng tốt nhất để có thể tăng cân, đảm bảm sức khỏe.</p>
+    <p>- 16 ≤ BMI đến 17: Gầy độ II.</p>
+    <p>- 17 ≤ BMI đến 18.5: Gầy độ I.</p>
+    <p>- 18.5 ≤ BMI đến 25: Bình thường. Bạn có một cơ thể tốt và tương đối khỏe mạnh.</p>
+    <p>- 25 ≤ BMI đến 30: Thừa cân. Tình trạng thừa cân thời điểm này chưa quá trầm trọng nhưng bạn hãy tìm phương pháp và chế độ giảm cân để đưa cơ thể về vóc dáng cân đối, đảm bảo sức khỏe và phòng ngừa bệnh tật.</p>
+    <p>- 30 ≤ BMI đến 35: Béo phì độ I.</p>
+    <p>- 35 ≤ BMI đến 40: Béo phì độ II.</p>
+    <p>- BMI trên 40: Béo phì độ III. Ở các cấp độ béo phì, cơ thể của bạn gặp khó khăn mỗi ngayuf khi trọng lượng mỡ tạo áp lực lên cơ xương. Từ đó, không chỉ sinh hoạt của bạn bị xáo trộng mà sức khỏe của bạn cũng bị ảnh hưởng rất nhiều.</p>
+    <script src="index.js"></script>
+  </body> </html>

@@ -1,0 +1,30 @@
+.container{
+background-color: rgba(150, 255, 0, 0.5);
+border: 2px solid red;
+width:15%;
+height: auto;
+margin: auto;
+
+}
+.a{
+  margin-left: 60px;
+}
+#height1{
+  margin-left:60px;
+  }
+#weight1{
+  margin-left:60px;
+  margin-bottom: 10px;
+}
+#height2{
+  margin-left:60px;
+  }
+#weight2{
+  margin-left:60px;
+  margin-bottom: 10px;
+}
+#button{
+  background: rgba(255, 255, 255, 0.82);
+  margin-bottom: 10px;
+  margin-left: 60px;
+}
